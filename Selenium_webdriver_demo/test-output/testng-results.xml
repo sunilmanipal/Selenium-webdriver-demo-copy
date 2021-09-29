@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="39657" started-at="2017-11-04T04:16:48Z" finished-at="2017-11-04T04:17:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="39657" started-at="2017-11-04T04:16:48Z" finished-at="2017-11-04T04:17:28Z">
+      <class name="scripts.Dataprovder_usingTestNG">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:scripts.Dataprovder_usingTestNG@48eff760]" name="beforeTest" is-config="true" duration-ms="14826" started-at="2017-11-04T09:46:48Z" finished-at="2017-11-04T09:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:scripts.Dataprovder_usingTestNG@48eff760]" name="f" duration-ms="13649" started-at="2017-11-04T09:47:03Z" data-provider="dp" finished-at="2017-11-04T09:47:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:scripts.Dataprovder_usingTestNG@48eff760]" name="f" duration-ms="11098" started-at="2017-11-04T09:47:17Z" data-provider="dp" finished-at="2017-11-04T09:47:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:scripts.Dataprovder_usingTestNG@48eff760]" name="afterTest" is-config="true" duration-ms="34" started-at="2017-11-04T09:47:28Z" finished-at="2017-11-04T09:47:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- scripts.Dataprovder_usingTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
